@@ -3,8 +3,9 @@ import phoneImg from './images/phone.svg';
 import { useGlobalContext } from './context';
 
 const Hero = () => {
+  const { closeSubmenu } = useGlobalContext();
   return (
-    <section className='hero'>
+    <section className='hero' onMouseOver={closeSubmenu}>
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>Infraestrutura de pagamentos para a internet</h1>
@@ -17,7 +18,7 @@ const Hero = () => {
           <button className='btn'>comece agora</button>
         </article>
         <article className='hero-images'>
-          <img src='' alt='' />
+          <img src={phoneImg} alt='phone showing our mobile display' />
         </article>
       </div>
     </section>
