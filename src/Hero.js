@@ -18,7 +18,11 @@ const Hero = () => {
           <button className='btn'>comece agora</button>
         </article>
         <article className='hero-images'>
-          <img src={phoneImg} alt='phone showing our mobile display' />
+          <img
+            src={phoneImg}
+            alt='phone showing our mobile display'
+            className='phone-img'
+          />
         </article>
       </div>
     </section>
