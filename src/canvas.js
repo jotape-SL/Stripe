@@ -46,7 +46,6 @@ class Circle {
     this.y = Math.random() * h;
     this.angle = Math.random() * Math.PI * 2;
     this.radius = Math.random() * (maxR - minR) + minR;
-    // this.fourthColor = `hsla(${Math.random() * 360}, 100%, 50%, 0)`;
     this.firstColor = `hsla(271, 100%, 50%, 1)`;
     this.secondColor = `hsla(357, 100%, 50%, 1)`;
     this.thirdColor = `hsla(197, 100%, 60%, 1)`;
