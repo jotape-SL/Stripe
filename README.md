@@ -1,6 +1,13 @@
-# Stripe
+<div align='center'>
+
+ # Stripe
 
 Um site baseado no atual [Stripe](https://stripe.com/br). Feito como treino de React.
+
+</div>
+
+![image](https://user-images.githubusercontent.com/102804110/187943826-b26064b1-97a2-42e2-bcfd-70d9c2474ac2.png)
+
 
 ## 🚀 Como executar o projeto
 
@@ -55,5 +62,3 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://gith
 
 Agradecimento ao John do canal [codding addict](https://www.youtube.com/c/CodingAddict/featured) por proporcionar o [curso de React](https://www.youtube.com/watch?v=4UZrsTqkcW4&ab_channel=freeCodeCamp.org) gratuito no youtube, compilado pela [freecodecamp.org](https://www.freecodecamp.org/)
 
-
----
